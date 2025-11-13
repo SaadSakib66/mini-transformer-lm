@@ -15,7 +15,3 @@ cache/
 *.ckpt
 *.onnx
 '@ | Set-Content -Encoding UTF8 .gitignore
-
-git rm -r --cached venv
-git add .gitignore
-git commit -m "chore: ignore venv and untrack it"
