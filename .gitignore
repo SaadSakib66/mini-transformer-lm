@@ -1,0 +1,26 @@
+@'
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual env (লোকালেই থাকবে)
+venv/
+.venv/
+.env/
+
+# Notebooks cache
+.ipynb_checkpoints/
+
+# Data / cache (ইচ্ছা হলে)
+data/
+cache/
+
+# Model weights (LFS এ রাখবেন)
+*.pt
+*.bin
+*.ckpt
+*.onnx
+'@ | Set-Content -Encoding UTF8 .gitignore
